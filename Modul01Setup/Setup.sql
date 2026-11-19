@@ -1,4 +1,11 @@
 /*
+Thema: SQL-Server-Grundkonfiguration nach der Installation.
+Erlaeuterung: Hinweise zu Instant File Initialization, Speicher, MAXDOP und TempDB.
+Tipp: Einstellungen an Betriebssystem, Workload und vorhandenen Ressourcen ausrichten.
+Anleitung: Skript als Checkliste lesen und Werte anschliessend in Setup/SSMS pruefen.
+*/
+
+/*
 
  Volumewartungstask = reine Windows Sicherheitseinstellung
 

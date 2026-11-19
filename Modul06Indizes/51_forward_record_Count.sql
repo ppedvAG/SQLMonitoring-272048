@@ -1,4 +1,10 @@
---Design Phänomene
+/*
+Thema: Weitergeleitete Datensaetze in Heaps (forwarded records).
+Erlaeuterung: Zeigt die Ermittlung ueber sys.dm_db_index_physical_stats und deren Bedeutung.
+Tipp: Die DMV kann je nach Modus viel I/O verursachen; mit kleinem Umfang beginnen.
+Anleitung: Datenbank- und Tabellennamen anpassen und forwarded_record_count im Kontext bewerten.
+*/
+--Design Phï¿½nomene
 
 --forward Record Counts
 --kommt durch Hinzufügen von Spalten zu bestehenden Tabellen

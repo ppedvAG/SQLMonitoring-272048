@@ -1,4 +1,10 @@
-﻿1) Rowstore-Datenkompression (ROW & PAGE)
+﻿/*
+Thema: Kompression von Rowstore, Columnstore, Backups und Spaltenwerten.
+Erlaeuterung: Erklaert Einsatzgebiete, Kosten, Schaetzung, Umsetzung und Kontrolle.
+Tipp: Vor Aenderungen sp_estimate_data_compression_savings nutzen und CPU/IO vergleichen.
+Anleitung: Erst eine Testtabelle oder Partition komprimieren; ALTER INDEX kann Ressourcen binden.
+*/
+1) Rowstore-Datenkompression (ROW & PAGE)
 ROW-Kompression
 Was passiert intern?
 Feste Datentypen (z. B. INT, CHAR(100)) werden intern variabel gespeichert.

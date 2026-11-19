@@ -1,4 +1,10 @@
---Überwachung
+/*
+Thema: Laufzeitdiagnose mit DMVs und Performancezaehlern.
+Erlaeuterung: Zeigt Wait Stats, Sessionhinweise und die Interpretation von CPU- und Ressourcenwartezeiten.
+Tipp: DMV-Werte sind oft kumulativ oder fluechtig; immer Zeitfenster und Neustartzeitpunkt beachten.
+Anleitung: Erst Problemzeitraum und betroffene Ressource bestimmen, dann passende Abfrage ausfuehren.
+*/
+--ï¿½berwachung
 
 /*
 aktuelles Problem

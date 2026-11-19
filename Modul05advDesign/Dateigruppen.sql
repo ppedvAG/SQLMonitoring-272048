@@ -1,3 +1,9 @@
+/*
+Thema: Dateigruppen und Platzierung von Datenbankdateien.
+Erlaeuterung: Legt HOT- und ARCHIV-Dateigruppen samt Dateien an und zeigt deren Nutzung.
+Tipp: Dateipfade und Laufwerke muessen auf dem SQL-Server existieren; Speicher getrennt planen.
+Anleitung: Datenbanknamen und Pfade vor Ausfuehrung pruefen; das Skript aendert die Datenbankstruktur.
+*/
 --Dateigruppen
 USE [master]
 GO

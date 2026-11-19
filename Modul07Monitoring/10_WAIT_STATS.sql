@@ -1,3 +1,7 @@
+-- Thema: Rangliste relevanter Wait Stats seit dem letzten SQL-Server-Start.
+-- Erlaeuterung: Die CTE filtert typische Leerlauf-Waits und berechnet Anteile sowie durchschnittliche Wartezeiten.
+-- Tipp: Wait Stats sind kumulativ; vor/nach Messzeitraum vergleichen und nicht isoliert als Ursache interpretieren.
+-- Anleitung: Mit ausreichender Berechtigung ausfuehren und besonders hohe Wait Types weiter untersuchen.
 WITH [Waits] 
 AS (SELECT wait_type, wait_time_ms/ 1000.0 AS [WaitS],
           (wait_time_ms - signal_wait_time_ms) / 1000.0 AS [ResourceS],

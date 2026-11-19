@@ -1,4 +1,11 @@
 /*
+Thema: Indexarten, Indexnutzung und Wartung.
+Erlaeuterung: Vergleicht Clustered/Nonclustered-Indizes und zeigt Diagnose- und Beispielszenarien.
+Tipp: Indizes beschleunigen Lesezugriffe, verursachen aber Speicher- und Schreibkosten.
+Anleitung: Beispiele mit einer Testdatenbank ausfuehren und Ausfuehrungsplan sowie STATISTICS IO vergleichen.
+*/
+
+/*
 
 INDIZES
 

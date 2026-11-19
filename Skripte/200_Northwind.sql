@@ -1,4 +1,11 @@
 /*
+Thema: Aufbau der Northwind-Beispieldatenbank mit Tabellen, Daten und Sichten.
+Erlaeuterung: Erstellt die Datenbankdateien und befuellt sie fuer Kurs- und Testabfragen.
+Tipp: Dieses Skript loescht eine vorhandene Datenbank namens Northwind ohne Rueckfrage.
+Anleitung: Nur in einer isolierten Testumgebung und nach Pruefung vorhandener Northwind-Datenbanken ausfuehren.
+*/
+
+/*
 ** Copyright Microsoft, Inc. 1994 - 2000
 ** All Rights Reserved.
 */
