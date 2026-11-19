@@ -1,4 +1,11 @@
-						  /*
+/*
+Thema: Datenbankobjekte fuer wiederverwendbare Abfragen.
+Erlaeuterung: Vergleicht Ad-hoc-Abfragen, Prozeduren, Funktionen und Sichten anhand von Beispielen.
+Tipp: Keine Objektart ist pauschal schneller; Ausfuehrungsplan und Parametrisierung entscheiden.
+Anleitung: Beispiele in einer Testdatenbank mit den benoetigten Tabellen ausfuehren.
+*/
+
+/*
 wir können mit Hilfe veschiedener Objekte diesseleben Ergennisse bekommen
 Aber was ist schneller: F() , Porz , Adhoc oder Sicht
 

@@ -1,5 +1,9 @@
-
-
+/*
+Thema: Grundlagen des relationalen Datenbankdesigns.
+Erlaeuterung: Behandelt Normalisierung, Datentypen, Seitenbelegung und Kompression.
+Tipp: Speicher- und Performanceeffekte mit passenden Testdaten und STATISTICS IO/TIME messen.
+Anleitung: Beispiele nur in einer Entwicklungsdatenbank ausfuehren; einzelne Abschnitte pruefen.
+*/
 
 /*---
 

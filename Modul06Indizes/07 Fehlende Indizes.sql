@@ -1,10 +1,16 @@
+/*
+Thema: Ermittlung fehlender Indexvorschlaege aus Plaenen und DMVs.
+Erlaeuterung: Zeigt Planhinweise und DMV-Auswertungen samt deren Einschraenkungen.
+Tipp: Vorschlaege sind Momentaufnahmen und keine fertigen Indexdesigns; Schreibkosten und Redundanz pruefen.
+Anleitung: In einer Testumgebung ausfuehren, Kandidaten gegen reale Abfragen pruefen und Wirkung messen.
+*/
 
 --Fehlende indizes feststellen
 -- Ausgabe in tatsächlichen Ausführungsplan
 --oder in select * from sys.dm_exec_cached_plans (später)
 
 
-//*
+/*
 Es ist nicht dazu gedacht, eine Indizierungskonfiguration zu optimieren.
 Es kann keine statistischen Informationen zu mehr als 500 fehlenden Indexgruppen sammeln.
 Es gibt keine Reihenfolge für in einem Index zu verwendende Spalten an.
@@ -23,7 +29,7 @@ Es gibt nur Rohdateninformationen zu Spalten zurück, bei denen möglicherweise In
 Es schlägt keine gefilterten Indizes vor.
 Es kann unterschiedliche Kosten für dieselbe fehlende Indexgruppe zurückgeben, die mehrere Male in XML-Showplans angezeigt wird.
 
-*//
+*/
 
 
 

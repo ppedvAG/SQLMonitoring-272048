@@ -1,3 +1,10 @@
+/*
+Thema: Query Store fuer historische Abfrage- und Plananalyse.
+Erlaeuterung: Beschreibt Laufzeitstatistiken, Planregressionen, Plan-Forcing und den typischen Analyseablauf.
+Tipp: Speicherlimit, Aufbewahrung und automatische Plansteuerung passend zur Datenbank konfigurieren.
+Anleitung: Query Store aktivieren, ausreichend Messzeit sammeln und Plan-Forcing nachverfolgen.
+*/
+/*
 Funktionen des Query Stores:
 Verfolgen von Abfrageleistung im Zeitverlauf:
 
@@ -33,4 +40,5 @@ Vorteile:
 Langfristige Überwachung: Es werden nicht nur aktuelle, sondern auch historische Leistungsdaten gesammelt.
 Transparenz: Der Query Store gibt Einblick in die Arbeitsweise des SQL Servers und macht es einfacher, Leistungsengpässe zu identifizieren und zu beheben.
 Problembehebung ohne Unterbrechung: Durch Plan-Forcing können Probleme oft behoben werden, ohne dass die Datenbank neu gestartet oder andere invasive Maßnahmen ergriffen werden müssen.
-Zusammengefasst ist der Query Store ein unverzichtbares Werkzeug für das Performance-Tuning und die Diagnose von Abfragen in SQL Server-Datenbanken.
+Zusammengefasst ist der Query Store ein unverzichtbares Werkzeug fï¿½r das Performance-Tuning und die Diagnose von Abfragen in SQL Server-Datenbanken.
+*/

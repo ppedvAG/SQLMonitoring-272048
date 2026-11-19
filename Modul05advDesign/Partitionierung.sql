@@ -1,4 +1,11 @@
 /*
+Thema: Horizontale Partitionierung und partitionierte Sichten.
+Erlaeuterung: Zeigt Partition Functions, Schemes, Dateigruppen, Grenzen und Archivierung.
+Tipp: Partitionierung ersetzt keine geeignete Indexierung und bringt nicht automatisch Performance.
+Anleitung: Beispiele zuerst in einer Wegwerf-Testdatenbank ausfuehren; Dateigruppen und Grenzen anpassen.
+*/
+
+/*
 1.  Problem: größer werdende Tabellen
 
 Idee: Salamitaktiv.. statt einer großen Tabelle viele kleine

@@ -1,3 +1,10 @@
+/*
+Thema: Datenbankoptionen und ihre Auswirkungen auf Abfrageverarbeitung und Transaktionen.
+Erlaeuterung: Beispiele zu Statistiken, verzogerter Dauerhaftigkeit, Isolation und Cache.
+Tipp: Isolationseinstellungen, MAXDOP und Dauerhaftigkeit beeinflussen Nebenlaeufigkeit und Datenverlust-Risiko.
+Anleitung: Vor jeder ALTER DATABASE-Anweisung Workload, Recovery-Anforderungen und Rueckfallplan pruefen.
+*/
+
 	   /*
 
 Eine Datenbank beginnt mit rel geringen Größen

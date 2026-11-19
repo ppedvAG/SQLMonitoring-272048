@@ -1,3 +1,10 @@
+/*
+Thema: Interpretation ausgewaehlter Windows- und SQL-Server-Perfmon-Zaehler.
+Erlaeuterung: Behandelt CPU, Datentraeger, Speicher, Buffer Cache, Plan Cache und SQL-Statistiken.
+Tipp: Richtwerte sind keine Grenzwerte; Dauer, Baseline, Hardware und Workload gemeinsam betrachten.
+Anleitung: Zaehler ueber ein repraesentatives Zeitfenster protokollieren und mit SQL-Server-DMVs korrelieren.
+*/
+/*
 
 andreasr@ppedv.de
 
@@ -69,6 +76,7 @@ der auf die gleiche Seite zugreifen möchte, auf diesen Warten.
 Man könnte sie auch Systemlocks nennen..:-)
 
 SQL 
+*/
 
 
 

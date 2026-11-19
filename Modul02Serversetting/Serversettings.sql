@@ -1,4 +1,10 @@
-﻿ 1. Instanzweite Einstellungen (sp_configure)
+﻿/*
+Thema: Checkliste fuer instanzweite SQL-Server- und Betriebssystemeinstellungen.
+Erlaeuterung: Behandelt MAXDOP, Speicher, TempDB, Dateien, Sicherheit und Backups.
+Tipp: Empfehlungen sind Startwerte; vor Aenderungen die reale Workload messen.
+Anleitung: Punkte nach Installation oder Upgrade einzeln pruefen und dokumentieren.
+*/
+/* 1. Instanzweite Einstellungen (sp_configure)
 a) Max Degree of Parallelism (MAXDOP)
 
 Was prüfen: Standard ist 0 → SQL Server nutzt alle CPUs für parallele Pläne.
@@ -119,3 +125,4 @@ Power Plan → High Performance
 Auto Close/Auto Shrink prüfen
 Backup- und Wartungspläne einrichten
 Security-Grundlagen absichern
+*/

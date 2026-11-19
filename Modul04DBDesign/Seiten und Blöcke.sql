@@ -1,4 +1,10 @@
-----Seiten und Blöcke
+/*
+Thema: SQL-Server-Seiten und Extents (Bloecke).
+Erlaeuterung: Beschreibt Seitengroesse, Seitenzugriffe, Latches und grundlegende Diagnose.
+Tipp: DBCC SHOWCONTIG ist veraltet; fuer aktuelle Analysen sys.dm_db_index_physical_stats verwenden.
+Anleitung: Beispielobjektnamen durch eigene Tabellen ersetzen und DMV-Ergebnisse passend interpretieren.
+*/
+----Seiten und Blï¿½cke
 
 --Seiten und Blöcke
 

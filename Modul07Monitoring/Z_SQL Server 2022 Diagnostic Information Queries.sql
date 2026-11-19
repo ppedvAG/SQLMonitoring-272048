@@ -1,3 +1,7 @@
+-- Thema: Umfangreiche Diagnoseabfragen fuer SQL Server 2022.
+-- Erlaeuterung: Die Sammlung stammt von Glenn Berry; Copyright und Nutzungshinweise folgen im Originalkopf.
+-- Tipp: Nur die zur installierten SQL-Server-Version passenden Abfragen selektiv ausfuehren.
+-- Anleitung: Ergebnisse als Diagnosehinweise behandeln und benoetigte Serverberechtigungen sicherstellen.
 
 -- SQL Server 2022 Diagnostic Information Queries
 -- Glenn Berry 

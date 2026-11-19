@@ -1,4 +1,10 @@
-----Seiten und Blöcke
+/*
+Thema: SQL-Server-Seiten, Extents und physische Speicherung.
+Erlaeuterung: Erklaert Seitenbelegung sowie Latches und nennt Diagnosemoeglichkeiten.
+Tipp: Fuer aktuelle physische Statistiken sys.dm_db_index_physical_stats statt DBCC SHOWCONTIG verwenden.
+Anleitung: Tabellennamen im Beispiel ersetzen und DMV-Scanmodus nach Datenmenge waehlen.
+*/
+----Seiten und Blï¿½cke
 
 --Seiten und Blöcke
 

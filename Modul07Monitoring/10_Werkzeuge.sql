@@ -1,4 +1,10 @@
-1. Aktivitätsmonitor
+/*
+Thema: Werkzeuge fuer die SQL-Server-Performanceanalyse.
+Erlaeuterung: Ueberblick zu Aktivitaetsmonitor, DMVs, Profiler, Perfmon, XEvents, DTA und Query Store.
+Tipp: Fuer neue Ereignisaufzeichnungen Extended Events statt SQL Server Profiler bevorzugen.
+Anleitung: Werkzeug nach Fragestellung und Messdauer waehlen; produktive Systeme mit moeglichst wenig Overhead messen.
+*/
+/* 1. Aktivitï¿½tsmonitor
 Wann einsetzen:
 Schnelle Ad-hoc-Diagnose, wenn z. B. eine Anwendung „hängt“ oder plötzliche Performanceprobleme auftreten.
 Um Live-Übersicht zu Sessions, Sperren, Ausführungsplänen und Ressourcennutzung zu bekommen.
@@ -125,4 +131,5 @@ und zu beheben.
 5. Analyse starten
 6. nie abbrechen!
 7. Empfehlungen untersuchen (Berichte und SQL Skripte generieren)
+*/
 

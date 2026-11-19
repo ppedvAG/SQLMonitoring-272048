@@ -1,4 +1,11 @@
 /*
+Thema: Abfrageparallelitaet und MAXDOP.
+Erlaeuterung: Vergleicht CPU-Zeit, Laufzeit und Wartezeiten bei verschiedenen MAXDOP-Werten.
+Tipp: MAXDOP nicht pauschal maximieren; Ergebnisse unter repräsentativer Last vergleichen.
+Anleitung: Beispielabfragen in einer Testdatenbank ausfuehren und STATISTICS nach dem Test abschalten.
+*/
+
+/*
 
 
 MAXDOP 

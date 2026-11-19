@@ -1,3 +1,10 @@
+/*
+Thema: Post-Installations- und Upgrade-Pruefung eines SQL Servers.
+Erlaeuterung: Liest Konfiguration, TempDB, Datenbankoptionen, Backups, Statistiken und Version aus.
+Tipp: Die Abfragen liefern Diagnosewerte; empfohlene Einstellungen muessen fachlich bewertet werden.
+Anleitung: Mit ausreichenden Leserechten ausfuehren und die Ergebnisse vor Aenderungen dokumentieren.
+*/
+
 /* 
    SQL Server Post-Install / Post-Upgrade Check
    Zeigt empfohlene Werte vs. aktuelle Konfiguration.

@@ -1,4 +1,10 @@
-﻿Wofür Statistiken?
+﻿/*
+Thema: Statistiken, Histogramme und Kardinalitaetsschaetzungen.
+Erlaeuterung: Erlaeutert automatische/manuelle Statistiken, Aktualisierung und Beispielabfragen.
+Tipp: FULLSCAN kann bei grossen Tabellen teuer sein; Sampling, Aktualitaet und Planqualitaet gemeinsam bewerten.
+Anleitung: Beispiel nutzt dbo.Kunden und kann diese Tabelle erstellen bzw. loeschen; nur in einer Testdatenbank ausfuehren.
+*/
+Wofür Statistiken?
 SQL Server muss bevor die Abfragen ausgeführt werden eine Information besitzten,
 wieviele DAtensätze in etwa zurückkommen werden. Das ist wichtig für die Wahl 
 von IX SEEK oder doch Table_SCAN.

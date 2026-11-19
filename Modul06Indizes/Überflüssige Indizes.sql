@@ -1,4 +1,10 @@
---Überflüssige Indizes identifizieren
+/*
+Thema: Auswertung moeglicherweise ungenutzter Indizes.
+Erlaeuterung: Verknuepft Indexmetadaten mit Nutzungszaehlern aus SQL-Server-DMVs.
+Tipp: Zaehler werden beim Neustart zurueckgesetzt; einen repraesentativen Lastzeitraum beobachten.
+Anleitung: Ergebnisse vor dem Entfernen mit Anwendungen, Wartungsjobs und Indexabhaengigkeiten abgleichen.
+*/
+--ï¿½berflï¿½ssige Indizes identifizieren
 
 --kosten Performance bei INSERT / DELETE
 

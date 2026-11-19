@@ -1,3 +1,10 @@
+/*
+Thema: Post-Installations- und Upgrade-Check fuer SQL Server.
+Erlaeuterung: Liest Serverkonfiguration, TempDB, Datenbankoptionen, Backups und Patchlevel aus.
+Tipp: Ergebnisse dokumentieren und Abweichungen vor einer Konfigurationsaenderung bewerten.
+Anleitung: Mit ausreichenden Leserechten auf dem Zielserver ausfuehren; das Skript nimmt keine Aenderungen vor.
+*/
+
 /* 
    SQL Server Post-Install / Post-Upgrade Check
    Zeigt empfohlene Werte vs. aktuelle Konfiguration.
